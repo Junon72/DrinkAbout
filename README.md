@@ -42,7 +42,7 @@ Test passed
  
 5.	
 calc.js, final
-
+```
 1   whatCanIDrink = function(age) {
 
 2   	if(age<0) {
@@ -80,10 +80,10 @@ calc.js, final
 18      }
 
 19  };
- 
+```
  
 calcSpec.js, final
-
+```
 1   describe(“Drink About”, function() {
 
 2   describe (“Age test”, function() {
@@ -127,3 +127,4 @@ calcSpec.js, final
 22	    });
 
 23  });
+```
