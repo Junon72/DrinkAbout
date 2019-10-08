@@ -43,18 +43,12 @@ Test passed
 5.	
 calc.js, final
 ```
-```1   whatCanIDrink = function(age) {```
-
-```2   	if(age<0) {```
-
-```3   	return  "Sorry. I can’t tell what drink because that age is incorrect!"```
-
+1   whatCanIDrink = function(age) {
+2   	if(age<0) {
+3   	return  "Sorry. I can’t tell what drink because that age is incorrect!"
 4	    }
-
 5       if(age<14) {
-
 6   		return  "Drink Toddy";
-
 7   	}
 
 8       if(age<18) {
