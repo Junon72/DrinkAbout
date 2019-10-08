@@ -19,8 +19,6 @@ Drink About is a simple function that will check the age and return a drink appr
 1.  Description - Check age and recommend a drink
 
         a. Testing the age
-
-
         b. Want to get age  <0
         c. Expecting the age return "Sorry. I can’t tell what drink because that        age is incorrect!"
 
