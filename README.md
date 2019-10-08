@@ -17,10 +17,15 @@ Drink About is a simple function that will check the age and return a drink appr
 -   Else return "Sorry. I can’t tell what drink because that age is incorrect!"
 
 1.  Description - Check age and recommend a drink
+
         a. Testing the age
+
+
         b. Want to get age  <0
         c. Expecting the age return "Sorry. I can’t tell what drink because that        age is incorrect!"
+
 2.  (whatCanIDrink age).toBe(<0) -> calcSpec.js
+```
 describe(“Drink About”, function() {
 	describe (“Age check”, function() {
 		it (“should have a value”, function() [
@@ -28,15 +33,20 @@ describe(“Drink About”, function() {
 		});
 	});
 });
- 
+```
 Test failed: 1 spec 1 failure - expected is not defined
 
 3.	calc.js
+```
 whatCanIDrink = function(age) {
 		if(age<0) {
 		return  "Sorry. I can’t tell what drink because that age is incorrect!"
+```
+
 4.	calcSpec.js
+```
 	expected(whatCanIDrink(-1)).toBe("Sorry. I can’t tell what drink because that age is incorrect!");
+```
  
 Test passed
  
