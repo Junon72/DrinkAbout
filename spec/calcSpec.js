@@ -15,5 +15,8 @@ describe("Drink About", function() {
         it("should return Drink Toddy if age given is 129", function() {
             expect(whatCanIDrink(129)).toBe("Drink Whiskey");
         });
+        it("should return can't tell what drink if age given is 131", function() {
+            expect(whatCanIDrink(131)).toBe("Sorry. I can’t tell what drink because that age is incorrect!");
+        });
 	});
 });
