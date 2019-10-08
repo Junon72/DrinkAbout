@@ -1,7 +1,7 @@
 describe("Drink About", function() {
-	describe("Age test", function() {
-		it("should return incorrect age", function() {
-			expected(whatCanIDrink(age)).toBe(0);
+	describe("Age check", function() {
+		it("should have a value", function() {
+			expected(whatCanIDrink).toBe();
 		});
 	});
 });
